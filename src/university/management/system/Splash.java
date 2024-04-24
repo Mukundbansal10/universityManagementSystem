@@ -46,6 +46,7 @@ public class Splash extends JFrame implements Runnable {
     }
 
     public static void main(String[] args) {
+        System.out.println("hello");
         new Splash();
     }
 }
